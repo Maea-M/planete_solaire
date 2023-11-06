@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +12,41 @@ a {
 
 ul {
   list-style: none;
+}
+
+.sun {
+  background-color: orange;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+/* TAILLE DES PLANÈTES
+ *
+ *  taille de la terre c'est 100px de diamètre
+ *  calculer la taille des autres : 
+ *  mercure : 2.6 plus petite
+ *  venus : 1.1 plus petite
+ * */
+.planet {
+  background-color: black;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+}
+.planet--mercury {
+  width: 38.4615384615px;
+  height: 38.4615384615px;
+  background-color: yellow;
+}
+.planet--venus {
+  width: 90.9090909091px;
+  height: 90.9090909091px;
+  background-color: purple;
+}
+.planet--earth {
+  width: 100px;
+  height: 100px;
 }
 
 body {
