@@ -57,6 +57,27 @@ ul {
   border-radius: 100%;
   background-color: blue;
   flex-shrink: 0;
+  position: relative;
+}
+
+.satellite, .satellite--phobos, .satellite--deimos, .satellite--moon {
+  background-color: red;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  translate: -50% -50%;
+}
+.satellite--moon {
+  background-color: white;
+}
+.satellite--deimos {
+  background-color: grey;
+}
+.satellite--phobos {
+  background-color: blue;
 }
 
 .galaxy {
@@ -70,5 +91,5 @@ ul {
 }
 
 body {
-  background-color: red;
+  background-color: pink;
 }
